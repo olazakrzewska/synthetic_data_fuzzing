@@ -1,6 +1,5 @@
-numpy
-pandas
-scipy
-matplotlib
-sdv
-scikit-learn
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+sdv>=1.5
+matplotlib>=3.7
