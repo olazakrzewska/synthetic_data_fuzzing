@@ -16,7 +16,7 @@ from mutations.data_level_mutation import (
 from mutations.generator_level_mutation import EpochMutation
 
 
-N_ITERATIONS = 3
+N_ITERATIONS = 150
 MAX_SEQ_LEN = 4
 N_SAMPLES = None
 
@@ -87,3 +87,4 @@ def run_fuzzing(df):
 if __name__ == "__main__":
     df = pd.read_csv("../data/adult_clean.csv")
     run_fuzzing(df)
+
